@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- <link
+      rel="stylesheet"
+      href="../node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/@glidejs/glide/dist/css/glide.theme.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+  </head>
+  <body>
+    <div class="container-xxl">
+      <nav>
+        <ul class="navigation">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <div class="logo"></div>
+        <div class="lead">
+          <h1>
+            You are what you <span class="lead-color">eat</span>, so eat
+            <span class="lead-color">good</span>.
+          </h1>
+        </div>
+      </div>
+      <div class="about" id="about">
+        <div class="about-upper">
+          <div class="lead">•About Us•</div>
+          <div class="about-txt">
+            <h3>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. In,
+              recusandae reiciendis sapiente maxime inventore aperiam aliquam
+              dolorem, quia nulla incidunt rerum sit expedita consectetur, illo
+              assumenda eos quo voluptate ipsum magni dolores molestias possimus
+              atque. Unde et maiores neque nisi facilis vel quasi, sequi
+              deleniti consequuntur natus similique possimus id culpa iste
+              repellendus dolorem omnis mollitia hic doloribus minus impedit?
+            </h3>
+          </div>
+        </div>
+        <div class="about-bottom">
+          <div class="gallery">
+            <div class="gallery-1"></div>
+            <div class="gallery-2"></div>
+            <div class="gallery-3"></div>
+          </div>
+        </div>
+      </div>
+      <div class="menu" id="menu">
+        <div class="lead">•Our Menu•</div>
+        <div class="menu-type">
+            <div class="chicken">
+                <button class="chicken-btn" id="chicken-menu"></button>
+                <h4 class="chicken-txt">chicken</h4>
+            </div>
+            <div class="roasted">
+                <button class="roasted-btn" id="roasted-menu"></button>
+                <h4 class="roasted-txt">soon</h4>
+            </div>
+        </div>
+        <div class="menu-picked" id="menu-picked"><h2></h2></div>
+        <!-- Glider starts here -->
+        <div class="glide" id="glider">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="photo"></div>
+                <div class="name" id="dish-name"><h4>fried chicken</h4></div>
+                <div class="cta">
+                  <button class="buy">$6.99</button>
+                  <button class="more" id="btn-more">more</button>
+                </div>
+                
+              </li>
+              <li class="glide__slide"><div class="photo"></div>
+                <div class="name" id="dish-name" ><h4>chicken</h4></div>
+                <div class="cta">
+                  <button class="buy">$6.99</button>
+                  <button class="more" id="btn-more">more</button>
+                </div></li>
+              <li class="glide__slide"><div class="photo"></div>
+                <div class="name"id="dish-name"><h4>KFC chicken</h4></div>
+                <div class="cta">
+                  <button class="buy">$6.99</button>
+                  <button class="more" id="btn-more">more</button>
+                </div></li>
+              <li class="glide__slide"><div class="photo"></div>
+                <div class="name"id="dish-name"><h4>boiled chicken</h4></div>
+                <div class="cta">
+                  <button class="buy">$6.99</button>
+                  <button class="more" id="btn-more">more</button>
+                </div></li>
+              <li class="glide__slide"><div class="photo"></div>
+                <div class="name"id="dish-name"><h4>frozen chicken</h4></div>
+                <div class="cta">
+                  <button class="buy">$6.99</button>
+                  <button class="more" id="btn-more">more</button>
+                </div></li>
+              <li class="glide__slide"><div class="photo"></div>
+                <div class="name"id="dish-name"><h4>raw chicken</h4></div>
+                <div class="cta">
+                  <button class="buy">$6.99</button>
+                  <button class="more" id="btn-more">more</button>
+                </div></li>
+              <li class="glide__slide"><div class="photo"></div>
+                <div class="name"id="dish-name"><h4>steamed chicken</h4></div>
+                <div class="cta">
+                  <button class="buy">$6.99</button>
+                  <button class="more" id="btn-more">more</button>
+                </div></li>
+              <li class="glide__slide"><div class="photo"></div>
+                <div class="name"id="dish-name"><h4>fat chicken</h4></div>
+                <div class="cta">
+                  <button class="buy">$6.99</button>
+                  <button class="more" id="btn-more">more</button>
+                </div></li>
+              <li class="glide__slide"><div class="photo"></div>
+                <div class="name"id="dish-name"><h4>small chicken</h4></div>
+                <div class="cta">
+                  <button class="buy">$6.99</button>
+                  <button class="more" id="btn-more">more</button>
+                </div></li>
+              <li class="glide__slide"><div class="photo"></div>
+                <div class="name"id="dish-name"><h4>big chicken</h4></div>
+                <div class="cta">
+                  <button class="buy">$6.99</button>
+                  <button class="more" id="btn-more">more</button>
+                </div></li>
+              <li class="glide__slide"><div class="photo"></div>
+                <div class="name"id="dish-name"><h4>baby chicken</h4></div>
+                <div class="cta">
+                  <button class="buy">$6.99</button>
+                  <button class="more" id="btn-more">more</button>
+                </div></li>
+            </ul>
+          </div>
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+            <button class="glide__bullet" data-glide-dir="=2"></button>
+            <button class="glide__bullet" data-glide-dir="=3"></button>
+            <button class="glide__bullet" data-glide-dir="=4"></button>
+            <button class="glide__bullet" data-glide-dir="=5"></button>
+            <button class="glide__bullet" data-glide-dir="=6"></button>
+            <button class="glide__bullet" data-glide-dir="=7"></button>
+            <button class="glide__bullet" data-glide-dir="=8"></button>
+            <button class="glide__bullet" data-glide-dir="=9"></button>
+            <button class="glide__bullet" data-glide-dir="=10"></button>
+          </div>
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              <
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              >
+            </button>
+          </div>
+        </div>
+        <!-- Glider ends here -->
+        <div class="more-card" id="more-card">
+            <div class="more-card-picture" id="more-card-picture"></div>
+            <div class="more-card-title" id="more-card-title"><h2></h2></div>
+            <div class="more-card-description" id="more-card-description"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus suscipit ratione illum ducimus dolorem? Nostrum quae sapiente laborum dolorem voluptatibus eius id voluptatem sed illum quidem neque, natus quas? Magnam!</p></div>
+            <div class="more-card-nutrition" id="more-card-nutrition">
+                <div class="nutrition-lead"><h2>Nutrition facts</h2></div>
+                <div class="nutrition-labels">
+                    <div class="nutrition-fats"><h3>Fats - 30%</h3></div>
+                    <div class="nutrition-carb"><h3>Carbo - 20%</h3></div>
+                    <div class="nutrition-potassium"><h3>Potassium - 4%</h3></div>
+                    <div class="nutrition-sodium"><h3>Sodium - 2%</h3></div>
+                </div>
+            </div>
+            <div class="close-btn" id="close-btn"><i class="far fa-times-circle fa-4x"></i></div>
+        </div>
+      </div>
+      <div class="contact" id="contact">
+        <div class="lead">•Contact Us•</div>
+        <div class="form">
+          <form>
+            <label for="name">name</label>
+            <input type="text" name="" id="" placeholder="name" />
+            <label for="phone">phone no.</label>
+            <input type="tel" name="" id="" placeholder="phone no." />
+            <label for="email">email</label>
+            <input type="email" name="" id="" placeholder="email" />
+            <label for="message">message</label>
+            <input type="text" name="" id="" placeholder="message" />
+            <button class="send" type="button">send</button>
+          </form>
+        </div>
+        <div class="map">
+          <div class="left">
+            <h2>address</h2>
+            <h3>180 Prince St, New York, NY 10012</h3>
+            <h2>phone no.</h2>
+            <h2>1 212-966-3518</h2>
+          </div>
+          <div class="right">
+            <div class="map-map">
+                <iframe 
+                width="700" 
+                height="400" 
+                style="border:0" 
+                loading="lazy" 
+                allowfullscreen 
+                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJPTzRt41ZwokRu9mHVhmC8cs&key=AIzaSyA9RKDmWQsV169-npv2hXlQPpp7n7TMECs"
+                ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="options">
+        </div>
+        <div class="info">
+          <h5>rooster inc.<br> 180 prince st, NY, NY 10012</br> 1 212-916-3518</h5>
+        </div>
+      </footer>
+    </div>
+    <script src="./main.js" defer></script>
+  </body>
+</html>
