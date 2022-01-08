@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "rm -rf ./development && rm -rf ./.cache && parcel src/index.html --dist-dir development",
-    "build": "parcel build src/index.html --dist-dir production"
+    "build": "parcel build ./src/index.html --dist-dir production"
   },
   "keywords": [],
   "author": "",
